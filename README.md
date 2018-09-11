@@ -1,2 +1,2 @@
-# FlexType
-A flexbox utility library for rapidly prototyping websites!
+# DisplayType
+An incremental display utility library for rapidly prototyping websites!
