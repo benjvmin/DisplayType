@@ -1,0 +1,28 @@
+{
+  "name": "displaytype",
+  "version": "1.0.0",
+  "description": "A flexbox based utility library for rapidly prototyping websites.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjvmin/DisplayType.git"
+  },
+  "keywords": [
+    "Flexbox",
+    "CSS",
+    "Utility",
+    "Library",
+    "Sass",
+    "SCSS",
+    "Prototyping"
+  ],
+  "author": "Benjamin Taylor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjvmin/DisplayType/issues"
+  },
+  "homepage": "https://github.com/benjvmin/DisplayType#readme"
+}
