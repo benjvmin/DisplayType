@@ -1,0 +1,75 @@
+
+/* 
+DISPLAY-TYPE 1.0.0
+*/
+
+/* FlexBox */
+[data-display-type~="d-f"] { display: flex; }
+[data-display-type~="d-fc"] { display: flex; flex-direction: column; }
+
+// Flex Flow
+[data-display-type~="ff-r"] { flex-flow: row; }
+[data-display-type~="ff-rr"] { flex-flow: row-reverse; }
+[data-display-type~="ff-c"] { flex-flow: column; }
+[data-display-type~="ff-cr"] { flex-flow: column-reverse; }
+[data-display-type~="ff-nw"] { flex-flow: nowrap; }
+[data-display-type~="ff-w"] { flex-flow: wrap; }
+[data-display-type~="ff-wr"] { flex-flow: wrap-reverse; }
+
+//Flex Wrap
+[data-display-type~="fw-w"] { flex-wrap: wrap; }
+[data-display-type~="fw-nw"] { flex-wrap: no-wrap; }
+[data-display-type~="fw-wr"] { flex-wrap: wrap-reverse }
+
+/* Justify Content */
+[data-display-type~="jc-c"] { justify-content: center; }
+[data-display-type~="jc-sb"] { justify-content: space-between; }
+[data-display-type~="jc-sa"] { justify-content: space-around; }
+[data-display-type~="jc-se"] { justify-content: space-evenly; }
+[data-display-type~="jc-vc"] { align-items: center; justify-content: center;}
+
+/* Align Items */
+[data-display-type~="ai-b"] { align-items: baseline; }
+[data-display-type~="ai-fb"] { align-items: first baseline; }
+[data-display-type~="ai-lb"] { align-items: last baseline; }
+[data-display-type~="ai-s"] { align-items: stretch; }
+[data-display-type~="ai-c"] { align-items: center; }
+[data-display-type~="ai-fs"] { align-items: flex-start; }
+[data-display-type~="ai-fe"] { align-items: flex-end; }
+
+/* Align Self */
+[data-display-type~="as-fs"] { align-self: flex-start; }
+[data-display-type~="as-c"] { align-self: center; }
+[data-display-type~="as-fe"] { align-self: flex-end; }
+[data-display-type~="as-b"] { align-self: baseline; }
+[data-display-type~="as-fb"] {align-self: first baseline; }
+[data-display-type~="as-lb"] {align-self: last baseline; }
+[data-display-type~="as-s"] {align-self: strech; }
+
+
+/* Flex (Flex Grow) */
+@for $i from 1 through 12 {
+	[data-display-type~="fg-#{$i}"] { flex: #{$i} }
+}
+
+/* Flex Shrink */
+@for $i from 1 through 12 {
+	[data-display-type~="fs-#{$i}"] { flex-shrink: #{$i} }
+}
+
+/* Flex Basis */
+@for $i from 0 through 12 {
+	[data-display-type~="fb-#{$i}"] { flex-basis: #{1920 * $i / 12}px }
+}
+
+/* Margin */
+[data-display-type~="m-a"] { margin: auto; }
+[data-display-type~="ml-a"] { margin-left: auto; }
+[data-display-type~="mr-a"] { margin-right: auto; }
+
+/* Block Level */
+[data-display-type~="d-b"] { display: block; }
+[data-display-type~="d-ib"] { display: inline-block; }
+
+/* Display None */
+[data-display-type~="d-n"] { display: none; }
