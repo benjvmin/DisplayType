@@ -1,0 +1,95 @@
+@function map-collect($maps...) {
+  $collection: ();
+
+  @each $map in $maps {
+    $collection: map-merge($collection, $map);
+  }
+
+  @return $collection;
+}
+
+@function return-flex-scale($factor) {
+  $collection: ();
+
+  @if ($factor == grow) {
+    @for $i from 1 through 12 {
+      $collection: map-merge($collection, ("fg-#{$i}": (flex: #{$i})));
+    }
+  }
+
+  @if ($factor == shrink) {
+    @for $i from 1 through 12 {
+      $collection: map-merge($collection, ("fs-#{$i}": (flex-shrink: #{$i})));
+    }
+  }
+
+  @if ($factor == basis) {
+    @for $i from 1 through 12 {
+      $collection: map-merge($collection, ("fs-#{$i}": (flex-basis: #{1920 * $i / 12}px)));
+    }
+  }
+
+  
+  @return $collection;
+}
+
+
+$flex-box: (
+  "d-f": (display: "flex"),
+  "d-fc": (display: "flex", flex-direction: "column")
+);
+
+$flex-flow: (
+  "ff-r": (flex-flow: "row"),
+  "ff-rr": (flex-flow: "row-reverse"),
+  "ff-c": (flex-flow: "column"),
+  "ff-cr": (flex-flow: "column-reverse"),
+  "ff-nw": (flex-flow: "nowrap"),
+  "ff-w": (flex-flow: "wrap"),
+  "ff-wr": (flex-flow: "wrap-reverse")
+);
+
+$flex-wrap: (
+  "fw-w": (flex-wrap: "wrap"),
+  "fw-nw": (flex-wrap: "nowrap"),
+  "fw-wr": (flex-wrap: "wrap-reverse")
+);
+
+$justify-content: (
+  "jc-c": (justify-content: "center"),
+  "jc-sb": (justify-content: "space-between"),
+  "jc-sa": (justify-content: "space-around"),
+  "jc-se": (justify-content: "space-evenly"),
+  "jc-vc": (align-items: "center", justify-content: "center")
+);
+
+$align-items: (
+  "ai-b": (align-items: "baseline"),
+  "ai-fb": (align-items: "first baseline"),
+  "ai-lb": (align-items: "last baseline"),
+  "ai-s": (align-items: "stretch"),
+  "ai-c": (align-items: "center"),
+  "ai-fs": (align-items: "flex-start"),
+  "ai-fe": (align-items: "flex-end")
+);
+
+$align-self: (
+  "as-fs": (align-self: "flex-start"),
+  "as-c": (align-self: "center"),
+  "as-fe": (align-self: "flex-end"),
+  "as-b": (align-self: "baseline"),
+  "as-fb": (align-self: "first baseline"),
+  "as-lb": (align-self: "last baseline"),
+  "as-s": (align-self: "strech")
+);
+
+
+$flex-grow: return-flex-scale(grow);
+$flex-shrink: return-flex-scale(shrink);
+$flex-basis: return-flex-scale(basis);
+
+// $flex-: return-flex-scale(ba);
+
+
+
+$bigmap: (map-collect($flex-box, $flex-flow, $flex-wrap, $justify-content, $align-items, $align-self, $flex-grow, $flex-shrink, $flex-basis));

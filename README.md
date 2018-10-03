@@ -4,14 +4,14 @@ A flexbox based utility library for rapidly prototyping user interfaces.
 
 
 # Introduction
-DisplayType aims to integrate well with existing and widely used CSS methodologies while extracting and applying benefits of a functional approach to CSS. DisplayType primarily exists at the intersection of (often conflicting) methodologies, in order to explore and seek to improve the way we think about and construct user interfaces. 
+DisplayType aims to integrate well with existing and widely used CSS methodologies while extracting and applying benefits of a functional approach to CSS. DisplayType primarily exists at the intersection of (often conflicting) CSS methodologies, in order to explore and seek to improve the way we think about and construct user interfaces. 
 
 
 # Basics
 
-1. Prepare to add utilities to html elements by adding a ```data-display-type``` attribute. 
+1. Add a ```data-display-type``` attribute to elements you wish to apply display utilities to. 
 
-2. Inside this special data attribute, add any corresponding display utility.
+2. Inside this special data attribute, add any corresponding display utility. For example: a navigation with ```display: flex``` and ````justify-content: center``` applied. 
 
 ```html 
 <nav>
