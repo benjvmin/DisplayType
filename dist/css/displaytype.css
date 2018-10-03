@@ -175,9 +175,6 @@ DISPLAY-TYPE 1.0.0
 [data-display-type~="fs-12"] {
   flex-basis: 1920px; }
 
-/* Align Items */
-/* Align Self */
-/* Flex Shrink */
 /* Margin */
 [data-display-type~="m-a"] {
   margin: auto; }
