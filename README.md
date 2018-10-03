@@ -11,7 +11,7 @@ DisplayType aims to integrate well with existing and widely used CSS methodologi
 
 1. Add a ```data-display-type``` attribute to elements you wish to apply display utilities to. 
 
-2. Inside this special data attribute, add any corresponding display utility. For example: a navigation with ```display: flex``` and ````justify-content: center``` applied. 
+2. Inside this special data attribute, add any corresponding display utility. For example: a navigation with ```display: flex``` and ```justify-content: center``` applied. 
 
 ```html 
 <nav>
