@@ -1,0 +1,13 @@
+@import "../functions/mapcollect";
+@import "./block/block";
+@import "./flexbox/flexbox";
+@import "./flexbox/flexflow";
+@import "./flexbox/flexwrap";
+@import "./flexbox/justifycontent";
+@import "./flexbox/alignitems";
+@import "./flexbox/alignself";
+@import "./flexbox/flexgrow";
+@import "./flexbox/flexshrink";
+@import "./flexbox/flexbasis";
+
+$bigmap: (map-collect($flex-box, $flex-flow, $flex-wrap, $justify-content, $align-items, $align-self, $flex-grow, $flex-shrink, $flex-basis));

@@ -15,7 +15,7 @@
 
   @if ($factor == basis) {
     @for $i from 1 through 12 {
-      $collection: map-merge($collection, ("fs-#{$i}": (flex-basis: #{1920 * $i / 12}px)));
+      $collection: map-merge($collection, ("fb-#{$i}": (flex-basis: #{1920 * $i / 12}px)));
     }
   }
 

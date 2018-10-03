@@ -1,11 +1,5 @@
 
-@each $abstraction, $rule in $bigmap {
-  [data-display-type~="#{$abstraction}"] {
-    @each $property, $value in $rule {
-      #{$property}: #{$value};
-    }
-  }
-}
+
 
 /* Margin */
 [data-display-type~="m-a"] { margin: auto; }

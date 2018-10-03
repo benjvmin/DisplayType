@@ -1,13 +1,6 @@
 /* 
 DISPLAY-TYPE 1.0.0
 */
-/* Block Level */
-[data-display-type~="d-b"] {
-  display: block; }
-
-[data-display-type~="d-ib"] {
-  display: inline-block; }
-
 [data-display-type~="d-f"] {
   display: flex; }
 
@@ -140,51 +133,73 @@ DISPLAY-TYPE 1.0.0
   flex: 12; }
 
 [data-display-type~="fs-1"] {
-  flex-basis: 160px; }
+  flex-shrink: 1; }
 
 [data-display-type~="fs-2"] {
-  flex-basis: 320px; }
+  flex-shrink: 2; }
 
 [data-display-type~="fs-3"] {
-  flex-basis: 480px; }
+  flex-shrink: 3; }
 
 [data-display-type~="fs-4"] {
-  flex-basis: 640px; }
+  flex-shrink: 4; }
 
 [data-display-type~="fs-5"] {
-  flex-basis: 800px; }
+  flex-shrink: 5; }
 
 [data-display-type~="fs-6"] {
-  flex-basis: 960px; }
+  flex-shrink: 6; }
 
 [data-display-type~="fs-7"] {
-  flex-basis: 1120px; }
+  flex-shrink: 7; }
 
 [data-display-type~="fs-8"] {
-  flex-basis: 1280px; }
+  flex-shrink: 8; }
 
 [data-display-type~="fs-9"] {
-  flex-basis: 1440px; }
+  flex-shrink: 9; }
 
 [data-display-type~="fs-10"] {
-  flex-basis: 1600px; }
+  flex-shrink: 10; }
 
 [data-display-type~="fs-11"] {
-  flex-basis: 1760px; }
+  flex-shrink: 11; }
 
 [data-display-type~="fs-12"] {
+  flex-shrink: 12; }
+
+[data-display-type~="fb-1"] {
+  flex-basis: 160px; }
+
+[data-display-type~="fb-2"] {
+  flex-basis: 320px; }
+
+[data-display-type~="fb-3"] {
+  flex-basis: 480px; }
+
+[data-display-type~="fb-4"] {
+  flex-basis: 640px; }
+
+[data-display-type~="fb-5"] {
+  flex-basis: 800px; }
+
+[data-display-type~="fb-6"] {
+  flex-basis: 960px; }
+
+[data-display-type~="fb-7"] {
+  flex-basis: 1120px; }
+
+[data-display-type~="fb-8"] {
+  flex-basis: 1280px; }
+
+[data-display-type~="fb-9"] {
+  flex-basis: 1440px; }
+
+[data-display-type~="fb-10"] {
+  flex-basis: 1600px; }
+
+[data-display-type~="fb-11"] {
+  flex-basis: 1760px; }
+
+[data-display-type~="fb-12"] {
   flex-basis: 1920px; }
-
-/* Margin */
-[data-display-type~="m-a"] {
-  margin: auto; }
-
-[data-display-type~="ml-a"] {
-  margin-left: auto; }
-
-[data-display-type~="mr-a"] {
-  margin-right: auto; }
-
-/* Display None */
-[data-display-type~="d-n"] {
-  display: none; }

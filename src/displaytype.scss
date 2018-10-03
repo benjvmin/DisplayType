@@ -1,8 +1,9 @@
 /* 
 DISPLAY-TYPE 1.0.0
 */
-@import "data/data";
-@import "partials/**/*.scss";
+@import "data/mixins/mixins";
+
+@include display-type-properties();
 
 
 
