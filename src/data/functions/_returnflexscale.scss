@@ -1,0 +1,24 @@
+@function return-flex-scale($factor) {
+  $collection: ();
+
+  @if ($factor == grow) {
+    @for $i from 1 through 12 {
+      $collection: map-merge($collection, ("fg-#{$i}": (flex: #{$i})));
+    }
+  }
+
+  @if ($factor == shrink) {
+    @for $i from 1 through 12 {
+      $collection: map-merge($collection, ("fs-#{$i}": (flex-shrink: #{$i})));
+    }
+  }
+
+  @if ($factor == basis) {
+    @for $i from 1 through 12 {
+      $collection: map-merge($collection, ("fs-#{$i}": (flex-basis: #{1920 * $i / 12}px)));
+    }
+  }
+
+  
+  @return $collection;
+}
