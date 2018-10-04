@@ -1,5 +1,5 @@
 
 $flex-box: (
-  "d-f": (display: "flex"),
+  "d-f": (display: "flex", flex-direction: "row"),
   "d-fc": (display: "flex", flex-direction: "column")
 );
