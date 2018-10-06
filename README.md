@@ -2,9 +2,9 @@
 A responsive, flexbox based utility library for rapidly prototyping user interfaces. Create powerful layouts with minimal CSS. 
 
 # Introduction
-DisplayType aims to make creating responsive, flexbox-based components easier by providing a small layer of abstraction and logical grouping of common CSS layout properties and breakpoints. DisplayType focuses on the benefits of functional based CSS while integrating nicely with existing CSS methodologies such as BEM. DisplayType is primarily used best for projects that require a quicker development cycle, or projects that are dependant on prototyping in the browser. 
+DisplayType aims to make creating responsive, flexbox-based components easier by providing a small layer of abstraction on top of logical grouping of common CSS layout properties and breakpoints. DisplayType focuses on the rapid development time of functional based CSS while integrating nicely with existing CSS methodologies such as BEM. DisplayType is primarily used best for projects that require a quicker development cycle, or projects that are dependant on prototyping in the browser. 
 
-##### Purpose
+#### Purpose
 Since DisplayType lives somewhere between often conflicting CSS methodologies, it's primary goal is to broadly explore and seek to improve the way we think about and construct user interfaces by extracting the benefits of functional CSS while steering clear of muddling up your organized naming conventions. 
 
 Read more about the underlying methodology and idea here: ()[Link]
