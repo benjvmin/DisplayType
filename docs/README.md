@@ -93,7 +93,6 @@ Sets the element's justify-content property to space-evenly.
 A shortcut property that automatically vertically centers content. VC stands for vertical centering.
 
 
-
 ### Display
 #### ```d-n``` 
 ##### display: none;
