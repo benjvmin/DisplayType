@@ -2,850 +2,861 @@
 DISPLAY-TYPE 1.0.0
 */
 /* Block Level */
-[data-dt~="d-n"] {
+[class~='dt-dn'] {
   display: none; }
 
-[data-dt~="d-b"] {
+[class~='dt-db'] {
   display: block; }
 
-[data-dt~="d-ib"] {
+[class~='dt-dib'] {
   display: inline-block; }
 
-[data-dt~="d-f"] {
+[class~='dt-df'] {
   display: flex;
   flex-direction: row; }
 
-[data-dt~="d-fc"] {
+[class~='dt-dfc'] {
   display: flex;
   flex-direction: column; }
 
-[data-dt~="ff-r"] {
+[class~='dt-ffr'] {
   flex-flow: row; }
 
-[data-dt~="ff-rr"] {
+[class~='dt-ffrr'] {
   flex-flow: row-reverse; }
 
-[data-dt~="ff-c"] {
+[class~='dt-ffc'] {
   flex-flow: column; }
 
-[data-dt~="ff-cr"] {
+[class~='dt-ffcr'] {
   flex-flow: column-reverse; }
 
-[data-dt~="ff-nw"] {
+[class~='dt-ffnw'] {
   flex-flow: nowrap; }
 
-[data-dt~="ff-w"] {
+[class~='dt-ffw'] {
   flex-flow: wrap; }
 
-[data-dt~="ff-wr"] {
+[class~='dt-ffwr'] {
   flex-flow: wrap-reverse; }
 
-[data-dt~="fw-w"] {
+[class~='dt-fww'] {
   flex-wrap: wrap; }
 
-[data-dt~="fw-nw"] {
+[class~='dt-fwnw'] {
   flex-wrap: nowrap; }
 
-[data-dt~="fw-wr"] {
+[class~='dt-fwwr'] {
   flex-wrap: wrap-reverse; }
 
-[data-dt~="jc-c"] {
+[class~='dt-jcc'] {
   justify-content: center; }
 
-[data-dt~="jc-sb"] {
+[class~='dt-jcsb'] {
   justify-content: space-between; }
 
-[data-dt~="jc-sa"] {
+[class~='dt-jcsa'] {
   justify-content: space-around; }
 
-[data-dt~="jc-se"] {
+[class~='dt-jcse'] {
   justify-content: space-evenly; }
 
-[data-dt~="jc-fs"] {
+[class~='dt-jcfs'] {
   justify-content: flex-start; }
 
-[data-dt~="jc-fe"] {
+[class~='dt-jcfe'] {
   justify-content: flex-end; }
 
-[data-dt~="jc-vc"] {
+[class~='dt-jcvc'] {
   align-items: center;
   justify-content: center; }
 
-[data-dt~="ai-b"] {
+[class~='dt-aib'] {
   align-items: baseline; }
 
-[data-dt~="ai-fb"] {
+[class~='dt-aifb'] {
   align-items: first baseline; }
 
-[data-dt~="ai-lb"] {
+[class~='dt-ailb'] {
   align-items: last baseline; }
 
-[data-dt~="ai-s"] {
+[class~='dt-aist'] {
   align-items: stretch; }
 
-[data-dt~="ai-c"] {
+[class~='dt-aic'] {
   align-items: center; }
 
-[data-dt~="ai-fs"] {
+[class~='dt-aifs'] {
   align-items: flex-start; }
 
-[data-dt~="ai-fe"] {
+[class~='dt-aife'] {
   align-items: flex-end; }
 
-[data-dt~="as-fs"] {
+[class~='dt-asfs'] {
   align-self: flex-start; }
 
-[data-dt~="as-c"] {
+[class~='dt-asc'] {
   align-self: center; }
 
-[data-dt~="as-fe"] {
+[class~='dt-asfe'] {
   align-self: flex-end; }
 
-[data-dt~="as-b"] {
+[class~='dt-asb'] {
   align-self: baseline; }
 
-[data-dt~="as-fb"] {
+[class~='dt-asfb'] {
   align-self: first baseline; }
 
-[data-dt~="as-lb"] {
+[class~='dt-aslb'] {
   align-self: last baseline; }
 
-[data-dt~="as-s"] {
+[class~='dt-asst'] {
   align-self: stretch; }
 
-[data-dt~="fg-1"] {
+[class~='dt-fg1'] {
   flex-grow: 1; }
 
-[data-dt~="fg-2"] {
+[class~='dt-fg2'] {
   flex-grow: 2; }
 
-[data-dt~="fg-3"] {
+[class~='dt-fg3'] {
   flex-grow: 3; }
 
-[data-dt~="fg-4"] {
+[class~='dt-fg4'] {
   flex-grow: 4; }
 
-[data-dt~="fg-5"] {
+[class~='dt-fg5'] {
   flex-grow: 5; }
 
-[data-dt~="fg-6"] {
+[class~='dt-fg6'] {
   flex-grow: 6; }
 
-[data-dt~="fg-7"] {
+[class~='dt-fg7'] {
   flex-grow: 7; }
 
-[data-dt~="fg-8"] {
+[class~='dt-fg8'] {
   flex-grow: 8; }
 
-[data-dt~="fg-9"] {
+[class~='dt-fg9'] {
   flex-grow: 9; }
 
-[data-dt~="fg-10"] {
+[class~='dt-fg10'] {
   flex-grow: 10; }
 
-[data-dt~="fg-11"] {
+[class~='dt-fg11'] {
   flex-grow: 11; }
 
-[data-dt~="fg-12"] {
+[class~='dt-fg12'] {
   flex-grow: 12; }
 
-[data-dt~="fs-1"] {
+[class~='dt-fs1'] {
   flex-shrink: 1; }
 
-[data-dt~="fs-2"] {
+[class~='dt-fs2'] {
   flex-shrink: 2; }
 
-[data-dt~="fs-3"] {
+[class~='dt-fs3'] {
   flex-shrink: 3; }
 
-[data-dt~="fs-4"] {
+[class~='dt-fs4'] {
   flex-shrink: 4; }
 
-[data-dt~="fs-5"] {
+[class~='dt-fs5'] {
   flex-shrink: 5; }
 
-[data-dt~="fs-6"] {
+[class~='dt-fs6'] {
   flex-shrink: 6; }
 
-[data-dt~="fs-7"] {
+[class~='dt-fs7'] {
   flex-shrink: 7; }
 
-[data-dt~="fs-8"] {
+[class~='dt-fs8'] {
   flex-shrink: 8; }
 
-[data-dt~="fs-9"] {
+[class~='dt-fs9'] {
   flex-shrink: 9; }
 
-[data-dt~="fs-10"] {
+[class~='dt-fs10'] {
   flex-shrink: 10; }
 
-[data-dt~="fs-11"] {
+[class~='dt-fs11'] {
   flex-shrink: 11; }
 
-[data-dt~="fs-12"] {
+[class~='dt-fs12'] {
   flex-shrink: 12; }
 
-[data-dt~="m-a"] {
+[class~='dt-fba'] {
+  flex-basis: auto; }
+
+[class~='dt-ma'] {
   margin: auto; }
 
-[data-dt~="ml-a"] {
+[class~='dt-mla'] {
   margin-left: auto; }
 
-[data-dt~="mr-a"] {
+[class~='dt-mra'] {
   margin-right: auto; }
 
-[data-dt~="w-1"] {
+[class~='dt-w1'] {
   width: calc((100% / 12 * 1) - 10px); }
 
-[data-dt~="w-2"] {
+[class~='dt-w2'] {
   width: calc((100% / 12 * 2) - 10px); }
 
-[data-dt~="w-3"] {
+[class~='dt-w3'] {
   width: calc((100% / 12 * 3) - 10px); }
 
-[data-dt~="w-4"] {
+[class~='dt-w4'] {
   width: calc((100% / 12 * 4) - 10px); }
 
-[data-dt~="w-5"] {
+[class~='dt-w5'] {
   width: calc((100% / 12 * 5) - 10px); }
 
-[data-dt~="w-6"] {
+[class~='dt-w6'] {
   width: calc((100% / 12 * 6) - 10px); }
 
-[data-dt~="w-7"] {
+[class~='dt-w7'] {
   width: calc((100% / 12 * 7) - 10px); }
 
-[data-dt~="w-8"] {
+[class~='dt-w8'] {
   width: calc((100% / 12 * 8) - 10px); }
 
-[data-dt~="w-9"] {
+[class~='dt-w9'] {
   width: calc((100% / 12 * 9) - 10px); }
 
-[data-dt~="w-10"] {
+[class~='dt-w10'] {
   width: calc((100% / 12 * 10) - 10px); }
 
-[data-dt~="w-11"] {
+[class~='dt-w11'] {
   width: calc((100% / 12 * 11) - 10px); }
 
-[data-dt~="w-12"] {
+[class~='dt-w12'] {
   width: calc((100% / 12 * 12) - 10px); }
 
 @media screen and (min-width: 580px) {
-  [data-dt-sm~="d-n"] {
+  [class~='dt-dn-sm'] {
     display: none; }
-  [data-dt-sm~="d-b"] {
+  [class~='dt-db-sm'] {
     display: block; }
-  [data-dt-sm~="d-ib"] {
+  [class~='dt-dib-sm'] {
     display: inline-block; }
-  [data-dt-sm~="d-f"] {
+  [class~='dt-df-sm'] {
     display: flex;
     flex-direction: row; }
-  [data-dt-sm~="d-fc"] {
+  [class~='dt-dfc-sm'] {
     display: flex;
     flex-direction: column; }
-  [data-dt-sm~="ff-r"] {
+  [class~='dt-ffr-sm'] {
     flex-flow: row; }
-  [data-dt-sm~="ff-rr"] {
+  [class~='dt-ffrr-sm'] {
     flex-flow: row-reverse; }
-  [data-dt-sm~="ff-c"] {
+  [class~='dt-ffc-sm'] {
     flex-flow: column; }
-  [data-dt-sm~="ff-cr"] {
+  [class~='dt-ffcr-sm'] {
     flex-flow: column-reverse; }
-  [data-dt-sm~="ff-nw"] {
+  [class~='dt-ffnw-sm'] {
     flex-flow: nowrap; }
-  [data-dt-sm~="ff-w"] {
+  [class~='dt-ffw-sm'] {
     flex-flow: wrap; }
-  [data-dt-sm~="ff-wr"] {
+  [class~='dt-ffwr-sm'] {
     flex-flow: wrap-reverse; }
-  [data-dt-sm~="fw-w"] {
+  [class~='dt-fww-sm'] {
     flex-wrap: wrap; }
-  [data-dt-sm~="fw-nw"] {
+  [class~='dt-fwnw-sm'] {
     flex-wrap: nowrap; }
-  [data-dt-sm~="fw-wr"] {
+  [class~='dt-fwwr-sm'] {
     flex-wrap: wrap-reverse; }
-  [data-dt-sm~="jc-c"] {
+  [class~='dt-jcc-sm'] {
     justify-content: center; }
-  [data-dt-sm~="jc-sb"] {
+  [class~='dt-jcsb-sm'] {
     justify-content: space-between; }
-  [data-dt-sm~="jc-sa"] {
+  [class~='dt-jcsa-sm'] {
     justify-content: space-around; }
-  [data-dt-sm~="jc-se"] {
+  [class~='dt-jcse-sm'] {
     justify-content: space-evenly; }
-  [data-dt-sm~="jc-fs"] {
+  [class~='dt-jcfs-sm'] {
     justify-content: flex-start; }
-  [data-dt-sm~="jc-fe"] {
+  [class~='dt-jcfe-sm'] {
     justify-content: flex-end; }
-  [data-dt-sm~="jc-vc"] {
+  [class~='dt-jcvc-sm'] {
     align-items: center;
     justify-content: center; }
-  [data-dt-sm~="ai-b"] {
+  [class~='dt-aib-sm'] {
     align-items: baseline; }
-  [data-dt-sm~="ai-fb"] {
+  [class~='dt-aifb-sm'] {
     align-items: first baseline; }
-  [data-dt-sm~="ai-lb"] {
+  [class~='dt-ailb-sm'] {
     align-items: last baseline; }
-  [data-dt-sm~="ai-s"] {
+  [class~='dt-aist-sm'] {
     align-items: stretch; }
-  [data-dt-sm~="ai-c"] {
+  [class~='dt-aic-sm'] {
     align-items: center; }
-  [data-dt-sm~="ai-fs"] {
+  [class~='dt-aifs-sm'] {
     align-items: flex-start; }
-  [data-dt-sm~="ai-fe"] {
+  [class~='dt-aife-sm'] {
     align-items: flex-end; }
-  [data-dt-sm~="as-fs"] {
+  [class~='dt-asfs-sm'] {
     align-self: flex-start; }
-  [data-dt-sm~="as-c"] {
+  [class~='dt-asc-sm'] {
     align-self: center; }
-  [data-dt-sm~="as-fe"] {
+  [class~='dt-asfe-sm'] {
     align-self: flex-end; }
-  [data-dt-sm~="as-b"] {
+  [class~='dt-asb-sm'] {
     align-self: baseline; }
-  [data-dt-sm~="as-fb"] {
+  [class~='dt-asfb-sm'] {
     align-self: first baseline; }
-  [data-dt-sm~="as-lb"] {
+  [class~='dt-aslb-sm'] {
     align-self: last baseline; }
-  [data-dt-sm~="as-s"] {
+  [class~='dt-asst-sm'] {
     align-self: stretch; }
-  [data-dt-sm~="fg-1"] {
+  [class~='dt-fg1-sm'] {
     flex-grow: 1; }
-  [data-dt-sm~="fg-2"] {
+  [class~='dt-fg2-sm'] {
     flex-grow: 2; }
-  [data-dt-sm~="fg-3"] {
+  [class~='dt-fg3-sm'] {
     flex-grow: 3; }
-  [data-dt-sm~="fg-4"] {
+  [class~='dt-fg4-sm'] {
     flex-grow: 4; }
-  [data-dt-sm~="fg-5"] {
+  [class~='dt-fg5-sm'] {
     flex-grow: 5; }
-  [data-dt-sm~="fg-6"] {
+  [class~='dt-fg6-sm'] {
     flex-grow: 6; }
-  [data-dt-sm~="fg-7"] {
+  [class~='dt-fg7-sm'] {
     flex-grow: 7; }
-  [data-dt-sm~="fg-8"] {
+  [class~='dt-fg8-sm'] {
     flex-grow: 8; }
-  [data-dt-sm~="fg-9"] {
+  [class~='dt-fg9-sm'] {
     flex-grow: 9; }
-  [data-dt-sm~="fg-10"] {
+  [class~='dt-fg10-sm'] {
     flex-grow: 10; }
-  [data-dt-sm~="fg-11"] {
+  [class~='dt-fg11-sm'] {
     flex-grow: 11; }
-  [data-dt-sm~="fg-12"] {
+  [class~='dt-fg12-sm'] {
     flex-grow: 12; }
-  [data-dt-sm~="fs-1"] {
+  [class~='dt-fs1-sm'] {
     flex-shrink: 1; }
-  [data-dt-sm~="fs-2"] {
+  [class~='dt-fs2-sm'] {
     flex-shrink: 2; }
-  [data-dt-sm~="fs-3"] {
+  [class~='dt-fs3-sm'] {
     flex-shrink: 3; }
-  [data-dt-sm~="fs-4"] {
+  [class~='dt-fs4-sm'] {
     flex-shrink: 4; }
-  [data-dt-sm~="fs-5"] {
+  [class~='dt-fs5-sm'] {
     flex-shrink: 5; }
-  [data-dt-sm~="fs-6"] {
+  [class~='dt-fs6-sm'] {
     flex-shrink: 6; }
-  [data-dt-sm~="fs-7"] {
+  [class~='dt-fs7-sm'] {
     flex-shrink: 7; }
-  [data-dt-sm~="fs-8"] {
+  [class~='dt-fs8-sm'] {
     flex-shrink: 8; }
-  [data-dt-sm~="fs-9"] {
+  [class~='dt-fs9-sm'] {
     flex-shrink: 9; }
-  [data-dt-sm~="fs-10"] {
+  [class~='dt-fs10-sm'] {
     flex-shrink: 10; }
-  [data-dt-sm~="fs-11"] {
+  [class~='dt-fs11-sm'] {
     flex-shrink: 11; }
-  [data-dt-sm~="fs-12"] {
+  [class~='dt-fs12-sm'] {
     flex-shrink: 12; }
-  [data-dt-sm~="m-a"] {
+  [class~='dt-fba-sm'] {
+    flex-basis: auto; }
+  [class~='dt-ma-sm'] {
     margin: auto; }
-  [data-dt-sm~="ml-a"] {
+  [class~='dt-mla-sm'] {
     margin-left: auto; }
-  [data-dt-sm~="mr-a"] {
+  [class~='dt-mra-sm'] {
     margin-right: auto; }
-  [data-dt-sm~="w-1"] {
+  [class~='dt-w1-sm'] {
     width: calc((100% / 12 * 1) - 10px); }
-  [data-dt-sm~="w-2"] {
+  [class~='dt-w2-sm'] {
     width: calc((100% / 12 * 2) - 10px); }
-  [data-dt-sm~="w-3"] {
+  [class~='dt-w3-sm'] {
     width: calc((100% / 12 * 3) - 10px); }
-  [data-dt-sm~="w-4"] {
+  [class~='dt-w4-sm'] {
     width: calc((100% / 12 * 4) - 10px); }
-  [data-dt-sm~="w-5"] {
+  [class~='dt-w5-sm'] {
     width: calc((100% / 12 * 5) - 10px); }
-  [data-dt-sm~="w-6"] {
+  [class~='dt-w6-sm'] {
     width: calc((100% / 12 * 6) - 10px); }
-  [data-dt-sm~="w-7"] {
+  [class~='dt-w7-sm'] {
     width: calc((100% / 12 * 7) - 10px); }
-  [data-dt-sm~="w-8"] {
+  [class~='dt-w8-sm'] {
     width: calc((100% / 12 * 8) - 10px); }
-  [data-dt-sm~="w-9"] {
+  [class~='dt-w9-sm'] {
     width: calc((100% / 12 * 9) - 10px); }
-  [data-dt-sm~="w-10"] {
+  [class~='dt-w10-sm'] {
     width: calc((100% / 12 * 10) - 10px); }
-  [data-dt-sm~="w-11"] {
+  [class~='dt-w11-sm'] {
     width: calc((100% / 12 * 11) - 10px); }
-  [data-dt-sm~="w-12"] {
+  [class~='dt-w12-sm'] {
     width: calc((100% / 12 * 12) - 10px); } }
 
 @media screen and (min-width: 768px) {
-  [data-dt-md~="d-n"] {
+  [class~='dt-dn-md'] {
     display: none; }
-  [data-dt-md~="d-b"] {
+  [class~='dt-db-md'] {
     display: block; }
-  [data-dt-md~="d-ib"] {
+  [class~='dt-dib-md'] {
     display: inline-block; }
-  [data-dt-md~="d-f"] {
+  [class~='dt-df-md'] {
     display: flex;
     flex-direction: row; }
-  [data-dt-md~="d-fc"] {
+  [class~='dt-dfc-md'] {
     display: flex;
     flex-direction: column; }
-  [data-dt-md~="ff-r"] {
+  [class~='dt-ffr-md'] {
     flex-flow: row; }
-  [data-dt-md~="ff-rr"] {
+  [class~='dt-ffrr-md'] {
     flex-flow: row-reverse; }
-  [data-dt-md~="ff-c"] {
+  [class~='dt-ffc-md'] {
     flex-flow: column; }
-  [data-dt-md~="ff-cr"] {
+  [class~='dt-ffcr-md'] {
     flex-flow: column-reverse; }
-  [data-dt-md~="ff-nw"] {
+  [class~='dt-ffnw-md'] {
     flex-flow: nowrap; }
-  [data-dt-md~="ff-w"] {
+  [class~='dt-ffw-md'] {
     flex-flow: wrap; }
-  [data-dt-md~="ff-wr"] {
+  [class~='dt-ffwr-md'] {
     flex-flow: wrap-reverse; }
-  [data-dt-md~="fw-w"] {
+  [class~='dt-fww-md'] {
     flex-wrap: wrap; }
-  [data-dt-md~="fw-nw"] {
+  [class~='dt-fwnw-md'] {
     flex-wrap: nowrap; }
-  [data-dt-md~="fw-wr"] {
+  [class~='dt-fwwr-md'] {
     flex-wrap: wrap-reverse; }
-  [data-dt-md~="jc-c"] {
+  [class~='dt-jcc-md'] {
     justify-content: center; }
-  [data-dt-md~="jc-sb"] {
+  [class~='dt-jcsb-md'] {
     justify-content: space-between; }
-  [data-dt-md~="jc-sa"] {
+  [class~='dt-jcsa-md'] {
     justify-content: space-around; }
-  [data-dt-md~="jc-se"] {
+  [class~='dt-jcse-md'] {
     justify-content: space-evenly; }
-  [data-dt-md~="jc-fs"] {
+  [class~='dt-jcfs-md'] {
     justify-content: flex-start; }
-  [data-dt-md~="jc-fe"] {
+  [class~='dt-jcfe-md'] {
     justify-content: flex-end; }
-  [data-dt-md~="jc-vc"] {
+  [class~='dt-jcvc-md'] {
     align-items: center;
     justify-content: center; }
-  [data-dt-md~="ai-b"] {
+  [class~='dt-aib-md'] {
     align-items: baseline; }
-  [data-dt-md~="ai-fb"] {
+  [class~='dt-aifb-md'] {
     align-items: first baseline; }
-  [data-dt-md~="ai-lb"] {
+  [class~='dt-ailb-md'] {
     align-items: last baseline; }
-  [data-dt-md~="ai-s"] {
+  [class~='dt-aist-md'] {
     align-items: stretch; }
-  [data-dt-md~="ai-c"] {
+  [class~='dt-aic-md'] {
     align-items: center; }
-  [data-dt-md~="ai-fs"] {
+  [class~='dt-aifs-md'] {
     align-items: flex-start; }
-  [data-dt-md~="ai-fe"] {
+  [class~='dt-aife-md'] {
     align-items: flex-end; }
-  [data-dt-md~="as-fs"] {
+  [class~='dt-asfs-md'] {
     align-self: flex-start; }
-  [data-dt-md~="as-c"] {
+  [class~='dt-asc-md'] {
     align-self: center; }
-  [data-dt-md~="as-fe"] {
+  [class~='dt-asfe-md'] {
     align-self: flex-end; }
-  [data-dt-md~="as-b"] {
+  [class~='dt-asb-md'] {
     align-self: baseline; }
-  [data-dt-md~="as-fb"] {
+  [class~='dt-asfb-md'] {
     align-self: first baseline; }
-  [data-dt-md~="as-lb"] {
+  [class~='dt-aslb-md'] {
     align-self: last baseline; }
-  [data-dt-md~="as-s"] {
+  [class~='dt-asst-md'] {
     align-self: stretch; }
-  [data-dt-md~="fg-1"] {
+  [class~='dt-fg1-md'] {
     flex-grow: 1; }
-  [data-dt-md~="fg-2"] {
+  [class~='dt-fg2-md'] {
     flex-grow: 2; }
-  [data-dt-md~="fg-3"] {
+  [class~='dt-fg3-md'] {
     flex-grow: 3; }
-  [data-dt-md~="fg-4"] {
+  [class~='dt-fg4-md'] {
     flex-grow: 4; }
-  [data-dt-md~="fg-5"] {
+  [class~='dt-fg5-md'] {
     flex-grow: 5; }
-  [data-dt-md~="fg-6"] {
+  [class~='dt-fg6-md'] {
     flex-grow: 6; }
-  [data-dt-md~="fg-7"] {
+  [class~='dt-fg7-md'] {
     flex-grow: 7; }
-  [data-dt-md~="fg-8"] {
+  [class~='dt-fg8-md'] {
     flex-grow: 8; }
-  [data-dt-md~="fg-9"] {
+  [class~='dt-fg9-md'] {
     flex-grow: 9; }
-  [data-dt-md~="fg-10"] {
+  [class~='dt-fg10-md'] {
     flex-grow: 10; }
-  [data-dt-md~="fg-11"] {
+  [class~='dt-fg11-md'] {
     flex-grow: 11; }
-  [data-dt-md~="fg-12"] {
+  [class~='dt-fg12-md'] {
     flex-grow: 12; }
-  [data-dt-md~="fs-1"] {
+  [class~='dt-fs1-md'] {
     flex-shrink: 1; }
-  [data-dt-md~="fs-2"] {
+  [class~='dt-fs2-md'] {
     flex-shrink: 2; }
-  [data-dt-md~="fs-3"] {
+  [class~='dt-fs3-md'] {
     flex-shrink: 3; }
-  [data-dt-md~="fs-4"] {
+  [class~='dt-fs4-md'] {
     flex-shrink: 4; }
-  [data-dt-md~="fs-5"] {
+  [class~='dt-fs5-md'] {
     flex-shrink: 5; }
-  [data-dt-md~="fs-6"] {
+  [class~='dt-fs6-md'] {
     flex-shrink: 6; }
-  [data-dt-md~="fs-7"] {
+  [class~='dt-fs7-md'] {
     flex-shrink: 7; }
-  [data-dt-md~="fs-8"] {
+  [class~='dt-fs8-md'] {
     flex-shrink: 8; }
-  [data-dt-md~="fs-9"] {
+  [class~='dt-fs9-md'] {
     flex-shrink: 9; }
-  [data-dt-md~="fs-10"] {
+  [class~='dt-fs10-md'] {
     flex-shrink: 10; }
-  [data-dt-md~="fs-11"] {
+  [class~='dt-fs11-md'] {
     flex-shrink: 11; }
-  [data-dt-md~="fs-12"] {
+  [class~='dt-fs12-md'] {
     flex-shrink: 12; }
-  [data-dt-md~="m-a"] {
+  [class~='dt-fba-md'] {
+    flex-basis: auto; }
+  [class~='dt-ma-md'] {
     margin: auto; }
-  [data-dt-md~="ml-a"] {
+  [class~='dt-mla-md'] {
     margin-left: auto; }
-  [data-dt-md~="mr-a"] {
+  [class~='dt-mra-md'] {
     margin-right: auto; }
-  [data-dt-md~="w-1"] {
+  [class~='dt-w1-md'] {
     width: calc((100% / 12 * 1) - 10px); }
-  [data-dt-md~="w-2"] {
+  [class~='dt-w2-md'] {
     width: calc((100% / 12 * 2) - 10px); }
-  [data-dt-md~="w-3"] {
+  [class~='dt-w3-md'] {
     width: calc((100% / 12 * 3) - 10px); }
-  [data-dt-md~="w-4"] {
+  [class~='dt-w4-md'] {
     width: calc((100% / 12 * 4) - 10px); }
-  [data-dt-md~="w-5"] {
+  [class~='dt-w5-md'] {
     width: calc((100% / 12 * 5) - 10px); }
-  [data-dt-md~="w-6"] {
+  [class~='dt-w6-md'] {
     width: calc((100% / 12 * 6) - 10px); }
-  [data-dt-md~="w-7"] {
+  [class~='dt-w7-md'] {
     width: calc((100% / 12 * 7) - 10px); }
-  [data-dt-md~="w-8"] {
+  [class~='dt-w8-md'] {
     width: calc((100% / 12 * 8) - 10px); }
-  [data-dt-md~="w-9"] {
+  [class~='dt-w9-md'] {
     width: calc((100% / 12 * 9) - 10px); }
-  [data-dt-md~="w-10"] {
+  [class~='dt-w10-md'] {
     width: calc((100% / 12 * 10) - 10px); }
-  [data-dt-md~="w-11"] {
+  [class~='dt-w11-md'] {
     width: calc((100% / 12 * 11) - 10px); }
-  [data-dt-md~="w-12"] {
+  [class~='dt-w12-md'] {
     width: calc((100% / 12 * 12) - 10px); } }
 
 @media screen and (min-width: 1050px) {
-  [data-dt-lg~="d-n"] {
+  [class~='dt-dn-lg'] {
     display: none; }
-  [data-dt-lg~="d-b"] {
+  [class~='dt-db-lg'] {
     display: block; }
-  [data-dt-lg~="d-ib"] {
+  [class~='dt-dib-lg'] {
     display: inline-block; }
-  [data-dt-lg~="d-f"] {
+  [class~='dt-df-lg'] {
     display: flex;
     flex-direction: row; }
-  [data-dt-lg~="d-fc"] {
+  [class~='dt-dfc-lg'] {
     display: flex;
     flex-direction: column; }
-  [data-dt-lg~="ff-r"] {
+  [class~='dt-ffr-lg'] {
     flex-flow: row; }
-  [data-dt-lg~="ff-rr"] {
+  [class~='dt-ffrr-lg'] {
     flex-flow: row-reverse; }
-  [data-dt-lg~="ff-c"] {
+  [class~='dt-ffc-lg'] {
     flex-flow: column; }
-  [data-dt-lg~="ff-cr"] {
+  [class~='dt-ffcr-lg'] {
     flex-flow: column-reverse; }
-  [data-dt-lg~="ff-nw"] {
+  [class~='dt-ffnw-lg'] {
     flex-flow: nowrap; }
-  [data-dt-lg~="ff-w"] {
+  [class~='dt-ffw-lg'] {
     flex-flow: wrap; }
-  [data-dt-lg~="ff-wr"] {
+  [class~='dt-ffwr-lg'] {
     flex-flow: wrap-reverse; }
-  [data-dt-lg~="fw-w"] {
+  [class~='dt-fww-lg'] {
     flex-wrap: wrap; }
-  [data-dt-lg~="fw-nw"] {
+  [class~='dt-fwnw-lg'] {
     flex-wrap: nowrap; }
-  [data-dt-lg~="fw-wr"] {
+  [class~='dt-fwwr-lg'] {
     flex-wrap: wrap-reverse; }
-  [data-dt-lg~="jc-c"] {
+  [class~='dt-jcc-lg'] {
     justify-content: center; }
-  [data-dt-lg~="jc-sb"] {
+  [class~='dt-jcsb-lg'] {
     justify-content: space-between; }
-  [data-dt-lg~="jc-sa"] {
+  [class~='dt-jcsa-lg'] {
     justify-content: space-around; }
-  [data-dt-lg~="jc-se"] {
+  [class~='dt-jcse-lg'] {
     justify-content: space-evenly; }
-  [data-dt-lg~="jc-fs"] {
+  [class~='dt-jcfs-lg'] {
     justify-content: flex-start; }
-  [data-dt-lg~="jc-fe"] {
+  [class~='dt-jcfe-lg'] {
     justify-content: flex-end; }
-  [data-dt-lg~="jc-vc"] {
+  [class~='dt-jcvc-lg'] {
     align-items: center;
     justify-content: center; }
-  [data-dt-lg~="ai-b"] {
+  [class~='dt-aib-lg'] {
     align-items: baseline; }
-  [data-dt-lg~="ai-fb"] {
+  [class~='dt-aifb-lg'] {
     align-items: first baseline; }
-  [data-dt-lg~="ai-lb"] {
+  [class~='dt-ailb-lg'] {
     align-items: last baseline; }
-  [data-dt-lg~="ai-s"] {
+  [class~='dt-aist-lg'] {
     align-items: stretch; }
-  [data-dt-lg~="ai-c"] {
+  [class~='dt-aic-lg'] {
     align-items: center; }
-  [data-dt-lg~="ai-fs"] {
+  [class~='dt-aifs-lg'] {
     align-items: flex-start; }
-  [data-dt-lg~="ai-fe"] {
+  [class~='dt-aife-lg'] {
     align-items: flex-end; }
-  [data-dt-lg~="as-fs"] {
+  [class~='dt-asfs-lg'] {
     align-self: flex-start; }
-  [data-dt-lg~="as-c"] {
+  [class~='dt-asc-lg'] {
     align-self: center; }
-  [data-dt-lg~="as-fe"] {
+  [class~='dt-asfe-lg'] {
     align-self: flex-end; }
-  [data-dt-lg~="as-b"] {
+  [class~='dt-asb-lg'] {
     align-self: baseline; }
-  [data-dt-lg~="as-fb"] {
+  [class~='dt-asfb-lg'] {
     align-self: first baseline; }
-  [data-dt-lg~="as-lb"] {
+  [class~='dt-aslb-lg'] {
     align-self: last baseline; }
-  [data-dt-lg~="as-s"] {
+  [class~='dt-asst-lg'] {
     align-self: stretch; }
-  [data-dt-lg~="fg-1"] {
+  [class~='dt-fg1-lg'] {
     flex-grow: 1; }
-  [data-dt-lg~="fg-2"] {
+  [class~='dt-fg2-lg'] {
     flex-grow: 2; }
-  [data-dt-lg~="fg-3"] {
+  [class~='dt-fg3-lg'] {
     flex-grow: 3; }
-  [data-dt-lg~="fg-4"] {
+  [class~='dt-fg4-lg'] {
     flex-grow: 4; }
-  [data-dt-lg~="fg-5"] {
+  [class~='dt-fg5-lg'] {
     flex-grow: 5; }
-  [data-dt-lg~="fg-6"] {
+  [class~='dt-fg6-lg'] {
     flex-grow: 6; }
-  [data-dt-lg~="fg-7"] {
+  [class~='dt-fg7-lg'] {
     flex-grow: 7; }
-  [data-dt-lg~="fg-8"] {
+  [class~='dt-fg8-lg'] {
     flex-grow: 8; }
-  [data-dt-lg~="fg-9"] {
+  [class~='dt-fg9-lg'] {
     flex-grow: 9; }
-  [data-dt-lg~="fg-10"] {
+  [class~='dt-fg10-lg'] {
     flex-grow: 10; }
-  [data-dt-lg~="fg-11"] {
+  [class~='dt-fg11-lg'] {
     flex-grow: 11; }
-  [data-dt-lg~="fg-12"] {
+  [class~='dt-fg12-lg'] {
     flex-grow: 12; }
-  [data-dt-lg~="fs-1"] {
+  [class~='dt-fs1-lg'] {
     flex-shrink: 1; }
-  [data-dt-lg~="fs-2"] {
+  [class~='dt-fs2-lg'] {
     flex-shrink: 2; }
-  [data-dt-lg~="fs-3"] {
+  [class~='dt-fs3-lg'] {
     flex-shrink: 3; }
-  [data-dt-lg~="fs-4"] {
+  [class~='dt-fs4-lg'] {
     flex-shrink: 4; }
-  [data-dt-lg~="fs-5"] {
+  [class~='dt-fs5-lg'] {
     flex-shrink: 5; }
-  [data-dt-lg~="fs-6"] {
+  [class~='dt-fs6-lg'] {
     flex-shrink: 6; }
-  [data-dt-lg~="fs-7"] {
+  [class~='dt-fs7-lg'] {
     flex-shrink: 7; }
-  [data-dt-lg~="fs-8"] {
+  [class~='dt-fs8-lg'] {
     flex-shrink: 8; }
-  [data-dt-lg~="fs-9"] {
+  [class~='dt-fs9-lg'] {
     flex-shrink: 9; }
-  [data-dt-lg~="fs-10"] {
+  [class~='dt-fs10-lg'] {
     flex-shrink: 10; }
-  [data-dt-lg~="fs-11"] {
+  [class~='dt-fs11-lg'] {
     flex-shrink: 11; }
-  [data-dt-lg~="fs-12"] {
+  [class~='dt-fs12-lg'] {
     flex-shrink: 12; }
-  [data-dt-lg~="m-a"] {
+  [class~='dt-fba-lg'] {
+    flex-basis: auto; }
+  [class~='dt-ma-lg'] {
     margin: auto; }
-  [data-dt-lg~="ml-a"] {
+  [class~='dt-mla-lg'] {
     margin-left: auto; }
-  [data-dt-lg~="mr-a"] {
+  [class~='dt-mra-lg'] {
     margin-right: auto; }
-  [data-dt-lg~="w-1"] {
+  [class~='dt-w1-lg'] {
     width: calc((100% / 12 * 1) - 10px); }
-  [data-dt-lg~="w-2"] {
+  [class~='dt-w2-lg'] {
     width: calc((100% / 12 * 2) - 10px); }
-  [data-dt-lg~="w-3"] {
+  [class~='dt-w3-lg'] {
     width: calc((100% / 12 * 3) - 10px); }
-  [data-dt-lg~="w-4"] {
+  [class~='dt-w4-lg'] {
     width: calc((100% / 12 * 4) - 10px); }
-  [data-dt-lg~="w-5"] {
+  [class~='dt-w5-lg'] {
     width: calc((100% / 12 * 5) - 10px); }
-  [data-dt-lg~="w-6"] {
+  [class~='dt-w6-lg'] {
     width: calc((100% / 12 * 6) - 10px); }
-  [data-dt-lg~="w-7"] {
+  [class~='dt-w7-lg'] {
     width: calc((100% / 12 * 7) - 10px); }
-  [data-dt-lg~="w-8"] {
+  [class~='dt-w8-lg'] {
     width: calc((100% / 12 * 8) - 10px); }
-  [data-dt-lg~="w-9"] {
+  [class~='dt-w9-lg'] {
     width: calc((100% / 12 * 9) - 10px); }
-  [data-dt-lg~="w-10"] {
+  [class~='dt-w10-lg'] {
     width: calc((100% / 12 * 10) - 10px); }
-  [data-dt-lg~="w-11"] {
+  [class~='dt-w11-lg'] {
     width: calc((100% / 12 * 11) - 10px); }
-  [data-dt-lg~="w-12"] {
+  [class~='dt-w12-lg'] {
     width: calc((100% / 12 * 12) - 10px); } }
 
 @media screen and (min-width: 1440px) {
-  [data-dt-xl~="d-n"] {
+  [class~='dt-dn-xl'] {
     display: none; }
-  [data-dt-xl~="d-b"] {
+  [class~='dt-db-xl'] {
     display: block; }
-  [data-dt-xl~="d-ib"] {
+  [class~='dt-dib-xl'] {
     display: inline-block; }
-  [data-dt-xl~="d-f"] {
+  [class~='dt-df-xl'] {
     display: flex;
     flex-direction: row; }
-  [data-dt-xl~="d-fc"] {
+  [class~='dt-dfc-xl'] {
     display: flex;
     flex-direction: column; }
-  [data-dt-xl~="ff-r"] {
+  [class~='dt-ffr-xl'] {
     flex-flow: row; }
-  [data-dt-xl~="ff-rr"] {
+  [class~='dt-ffrr-xl'] {
     flex-flow: row-reverse; }
-  [data-dt-xl~="ff-c"] {
+  [class~='dt-ffc-xl'] {
     flex-flow: column; }
-  [data-dt-xl~="ff-cr"] {
+  [class~='dt-ffcr-xl'] {
     flex-flow: column-reverse; }
-  [data-dt-xl~="ff-nw"] {
+  [class~='dt-ffnw-xl'] {
     flex-flow: nowrap; }
-  [data-dt-xl~="ff-w"] {
+  [class~='dt-ffw-xl'] {
     flex-flow: wrap; }
-  [data-dt-xl~="ff-wr"] {
+  [class~='dt-ffwr-xl'] {
     flex-flow: wrap-reverse; }
-  [data-dt-xl~="fw-w"] {
+  [class~='dt-fww-xl'] {
     flex-wrap: wrap; }
-  [data-dt-xl~="fw-nw"] {
+  [class~='dt-fwnw-xl'] {
     flex-wrap: nowrap; }
-  [data-dt-xl~="fw-wr"] {
+  [class~='dt-fwwr-xl'] {
     flex-wrap: wrap-reverse; }
-  [data-dt-xl~="jc-c"] {
+  [class~='dt-jcc-xl'] {
     justify-content: center; }
-  [data-dt-xl~="jc-sb"] {
+  [class~='dt-jcsb-xl'] {
     justify-content: space-between; }
-  [data-dt-xl~="jc-sa"] {
+  [class~='dt-jcsa-xl'] {
     justify-content: space-around; }
-  [data-dt-xl~="jc-se"] {
+  [class~='dt-jcse-xl'] {
     justify-content: space-evenly; }
-  [data-dt-xl~="jc-fs"] {
+  [class~='dt-jcfs-xl'] {
     justify-content: flex-start; }
-  [data-dt-xl~="jc-fe"] {
+  [class~='dt-jcfe-xl'] {
     justify-content: flex-end; }
-  [data-dt-xl~="jc-vc"] {
+  [class~='dt-jcvc-xl'] {
     align-items: center;
     justify-content: center; }
-  [data-dt-xl~="ai-b"] {
+  [class~='dt-aib-xl'] {
     align-items: baseline; }
-  [data-dt-xl~="ai-fb"] {
+  [class~='dt-aifb-xl'] {
     align-items: first baseline; }
-  [data-dt-xl~="ai-lb"] {
+  [class~='dt-ailb-xl'] {
     align-items: last baseline; }
-  [data-dt-xl~="ai-s"] {
+  [class~='dt-aist-xl'] {
     align-items: stretch; }
-  [data-dt-xl~="ai-c"] {
+  [class~='dt-aic-xl'] {
     align-items: center; }
-  [data-dt-xl~="ai-fs"] {
+  [class~='dt-aifs-xl'] {
     align-items: flex-start; }
-  [data-dt-xl~="ai-fe"] {
+  [class~='dt-aife-xl'] {
     align-items: flex-end; }
-  [data-dt-xl~="as-fs"] {
+  [class~='dt-asfs-xl'] {
     align-self: flex-start; }
-  [data-dt-xl~="as-c"] {
+  [class~='dt-asc-xl'] {
     align-self: center; }
-  [data-dt-xl~="as-fe"] {
+  [class~='dt-asfe-xl'] {
     align-self: flex-end; }
-  [data-dt-xl~="as-b"] {
+  [class~='dt-asb-xl'] {
     align-self: baseline; }
-  [data-dt-xl~="as-fb"] {
+  [class~='dt-asfb-xl'] {
     align-self: first baseline; }
-  [data-dt-xl~="as-lb"] {
+  [class~='dt-aslb-xl'] {
     align-self: last baseline; }
-  [data-dt-xl~="as-s"] {
+  [class~='dt-asst-xl'] {
     align-self: stretch; }
-  [data-dt-xl~="fg-1"] {
+  [class~='dt-fg1-xl'] {
     flex-grow: 1; }
-  [data-dt-xl~="fg-2"] {
+  [class~='dt-fg2-xl'] {
     flex-grow: 2; }
-  [data-dt-xl~="fg-3"] {
+  [class~='dt-fg3-xl'] {
     flex-grow: 3; }
-  [data-dt-xl~="fg-4"] {
+  [class~='dt-fg4-xl'] {
     flex-grow: 4; }
-  [data-dt-xl~="fg-5"] {
+  [class~='dt-fg5-xl'] {
     flex-grow: 5; }
-  [data-dt-xl~="fg-6"] {
+  [class~='dt-fg6-xl'] {
     flex-grow: 6; }
-  [data-dt-xl~="fg-7"] {
+  [class~='dt-fg7-xl'] {
     flex-grow: 7; }
-  [data-dt-xl~="fg-8"] {
+  [class~='dt-fg8-xl'] {
     flex-grow: 8; }
-  [data-dt-xl~="fg-9"] {
+  [class~='dt-fg9-xl'] {
     flex-grow: 9; }
-  [data-dt-xl~="fg-10"] {
+  [class~='dt-fg10-xl'] {
     flex-grow: 10; }
-  [data-dt-xl~="fg-11"] {
+  [class~='dt-fg11-xl'] {
     flex-grow: 11; }
-  [data-dt-xl~="fg-12"] {
+  [class~='dt-fg12-xl'] {
     flex-grow: 12; }
-  [data-dt-xl~="fs-1"] {
+  [class~='dt-fs1-xl'] {
     flex-shrink: 1; }
-  [data-dt-xl~="fs-2"] {
+  [class~='dt-fs2-xl'] {
     flex-shrink: 2; }
-  [data-dt-xl~="fs-3"] {
+  [class~='dt-fs3-xl'] {
     flex-shrink: 3; }
-  [data-dt-xl~="fs-4"] {
+  [class~='dt-fs4-xl'] {
     flex-shrink: 4; }
-  [data-dt-xl~="fs-5"] {
+  [class~='dt-fs5-xl'] {
     flex-shrink: 5; }
-  [data-dt-xl~="fs-6"] {
+  [class~='dt-fs6-xl'] {
     flex-shrink: 6; }
-  [data-dt-xl~="fs-7"] {
+  [class~='dt-fs7-xl'] {
     flex-shrink: 7; }
-  [data-dt-xl~="fs-8"] {
+  [class~='dt-fs8-xl'] {
     flex-shrink: 8; }
-  [data-dt-xl~="fs-9"] {
+  [class~='dt-fs9-xl'] {
     flex-shrink: 9; }
-  [data-dt-xl~="fs-10"] {
+  [class~='dt-fs10-xl'] {
     flex-shrink: 10; }
-  [data-dt-xl~="fs-11"] {
+  [class~='dt-fs11-xl'] {
     flex-shrink: 11; }
-  [data-dt-xl~="fs-12"] {
+  [class~='dt-fs12-xl'] {
     flex-shrink: 12; }
-  [data-dt-xl~="m-a"] {
+  [class~='dt-fba-xl'] {
+    flex-basis: auto; }
+  [class~='dt-ma-xl'] {
     margin: auto; }
-  [data-dt-xl~="ml-a"] {
+  [class~='dt-mla-xl'] {
     margin-left: auto; }
-  [data-dt-xl~="mr-a"] {
+  [class~='dt-mra-xl'] {
     margin-right: auto; }
-  [data-dt-xl~="w-1"] {
+  [class~='dt-w1-xl'] {
     width: calc((100% / 12 * 1) - 10px); }
-  [data-dt-xl~="w-2"] {
+  [class~='dt-w2-xl'] {
     width: calc((100% / 12 * 2) - 10px); }
-  [data-dt-xl~="w-3"] {
+  [class~='dt-w3-xl'] {
     width: calc((100% / 12 * 3) - 10px); }
-  [data-dt-xl~="w-4"] {
+  [class~='dt-w4-xl'] {
     width: calc((100% / 12 * 4) - 10px); }
-  [data-dt-xl~="w-5"] {
+  [class~='dt-w5-xl'] {
     width: calc((100% / 12 * 5) - 10px); }
-  [data-dt-xl~="w-6"] {
+  [class~='dt-w6-xl'] {
     width: calc((100% / 12 * 6) - 10px); }
-  [data-dt-xl~="w-7"] {
+  [class~='dt-w7-xl'] {
     width: calc((100% / 12 * 7) - 10px); }
-  [data-dt-xl~="w-8"] {
+  [class~='dt-w8-xl'] {
     width: calc((100% / 12 * 8) - 10px); }
-  [data-dt-xl~="w-9"] {
+  [class~='dt-w9-xl'] {
     width: calc((100% / 12 * 9) - 10px); }
-  [data-dt-xl~="w-10"] {
+  [class~='dt-w10-xl'] {
     width: calc((100% / 12 * 10) - 10px); }
-  [data-dt-xl~="w-11"] {
+  [class~='dt-w11-xl'] {
     width: calc((100% / 12 * 11) - 10px); }
-  [data-dt-xl~="w-12"] {
+  [class~='dt-w12-xl'] {
     width: calc((100% / 12 * 12) - 10px); } }

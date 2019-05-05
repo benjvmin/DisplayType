@@ -5,22 +5,21 @@
 
   @if ($scale == grow) {
     @for $i from 1 through $columns {
-      $collection: map-merge($collection, ("fg-#{$i}": (flex-grow: #{$i})));
+      $collection: map-merge($collection, ("fg#{$i}": (flex-grow: #{$i})));
     }
   }
 
   @if ($scale == shrink) {
     @for $i from 1 through $columns {
-      $collection: map-merge($collection, ("fs-#{$i}": (flex-shrink: #{$i})));
+      $collection: map-merge($collection, ("fs#{$i}": (flex-shrink: #{$i})));
     }
   }
 
   @if ($scale == width) {
     @for $i from 1 through $columns {
-      $collection: map-merge($collection, ("w-#{$i}": (width: calc((#{$target-width} / #{$columns} * #{$i}) - #{$empty-space}))));
+      $collection: map-merge($collection, ("w#{$i}": (width: calc((#{$target-width} / #{$columns} * #{$i}) - #{$empty-space}))));
     }
   }
-
 
   @return $collection;
 }

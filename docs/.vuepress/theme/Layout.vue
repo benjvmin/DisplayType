@@ -1,18 +1,21 @@
 <template lang="pug">
 
-  div(@click="hello()")
-    nav
-    
-    section.grid(data-dt="d-f" data-dt-md="jc-sa")
-      .grid__cell(data-dt="w-2") Hello
-      .grid__cell(data-dt="d-f w-10") Hello
+  div
 
-    section.grid(data-dt="d-fc" data-dt-md="jc-sa")
-      .grid__cell(data-dt="w-10") Hello
-      .grid__cell(data-dt="d-f w-2") Hello
+    section.grid(class="dt-dfc dt-df-md dt-jcc-md dt-jcsa-lg")
+      .grid__cell.dt-fba.dt-w4-md Hello
+      .grid__cell.ft-fba.dt-w4-md Hello
+    
+    section.grid
+      .grid__cell Hello
+      .grid__cell Hello
+      .grid__cell Hello
 
     main
       Content
+
+
+
 
 </template>
 
@@ -39,14 +42,12 @@ export default {
 </script>
 
 
-
 <style lang="scss">
+@import './styles/normalize';
+@import './styles/tinyreset';
 @import './styles/breakpoints';
 @import './styles/typography';
 
-* {
-  box-sizing: border-box;
-}
 
 body {
   margin: 0;
@@ -55,10 +56,14 @@ body {
 
 
 .grid {
+
   &__cell {
-    background: steelblue;
+    background: #282828;
     color: white;
-  }
+  } 
+
+
 }
+
 
 </style>

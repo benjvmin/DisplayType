@@ -1,3 +1,4 @@
-@import "../../functions/_returnsizescale";
-
-$flex-basis: return-size-scale(basis);
+$flex-basis: (
+  "fba": 
+    (flex-basis: "auto"),
+);

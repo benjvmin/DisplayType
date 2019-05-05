@@ -1,8 +1,18 @@
-@import "../propertymaps/_propertymap";
+@import '../propertymaps/_propertymap';
 
-@mixin display-type-properties($attribute) {
+// @mixin display-type-properties($attribute) {
+//   @each $abstraction, $rule in $bigmap {
+//     [#{$attribute}~="#{$abstraction}"] {
+//       @each $property, $value in $rule {
+//         #{$property}: #{$value};
+//       }
+//     }
+//   }
+// }
+
+@mixin display-type-properties($attribute, $size: null) {
   @each $abstraction, $rule in $bigmap {
-    [#{$attribute}~="#{$abstraction}"] {
+    [#{$attribute}~='dt-#{$abstraction}#{$size}'] {
       @each $property, $value in $rule {
         #{$property}: #{$value};
       }
@@ -10,17 +20,13 @@
   }
 }
 
-@mixin respond-to($condition, $breakpoint) { 
+@mixin respond-to($condition, $breakpoint) {
   @if map-has-key($breakpoints, $breakpoint) {
     @media screen and (#{$condition}: #{map-get($breakpoints, $breakpoint)}) {
       @content;
     }
-  }
-
-  @else {
+  } @else {
     @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
         + "Please make sure it is defined in `$breakpoints` map.";
   }
 }
-
-

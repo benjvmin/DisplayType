@@ -5,10 +5,18 @@ DISPLAY-TYPE 1.0.0
 // @import "breakpoints/breakpoints";
 @import 'config';
 
-@include display-type-properties('data-dt');
 
+@include display-type-properties('class');
+
+// @include display-type-properties('data-dt');
+
+// @each $size, $breakpoint in $breakpoints {
+//   @include respond-to('min-width', $size) {
+//     @include display-type-properties('data-dt-#{$size}');
+//   }
+// }
 @each $size, $breakpoint in $breakpoints {
   @include respond-to('min-width', $size) {
-    @include display-type-properties('data-dt-#{$size}');
+    @include display-type-properties("class", #{$size});
   }
 }
