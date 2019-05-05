@@ -3,5 +3,7 @@ $justify-content: (
   "jc-sb": (justify-content: "space-between"),
   "jc-sa": (justify-content: "space-around"),
   "jc-se": (justify-content: "space-evenly"),
+  "jc-fs": (justify-content: "flex-start"),
+  "jc-fe": (justify-content: "flex-end"),
   "jc-vc": (align-items: "center", justify-content: "center")
 );

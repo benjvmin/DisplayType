@@ -1,3 +1,4 @@
 @import "../../functions/_returnsizescale";
 
-$flex-shrink: return-size-scale(shrink);
+
+$width: return-size-scale(width);

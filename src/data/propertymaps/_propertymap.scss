@@ -10,5 +10,6 @@
 @import "./flexbox/flexshrink";
 @import "./flexbox/flexbasis";
 @import "./margin/margin";
+@import "./width/width";
 
-$bigmap: (map-collect($block-level, $flex-box, $flex-flow, $flex-wrap, $justify-content, $align-items, $align-self, $flex-grow, $flex-shrink, $flex-basis, $margin-auto));
+$bigmap: (map-collect($block-level, $flex-box, $flex-flow, $flex-wrap, $justify-content, $align-items, $align-self, $flex-grow, $flex-shrink, $flex-basis, $margin-auto, $width));

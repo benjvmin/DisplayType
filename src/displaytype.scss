@@ -1,16 +1,14 @@
 /* 
 DISPLAY-TYPE 1.0.0
 */
-@import "data/mixins/mixins";
-@import "breakpoints/breakpoints";
+@import 'data/mixins/mixins';
+// @import "breakpoints/breakpoints";
+@import 'config';
 
-@include display-type-properties("data-display-type");
+@include display-type-properties('data-dt');
 
 @each $size, $breakpoint in $breakpoints {
-  @include respond-to("min-width", $size) {
-    @include display-type-properties("data-breakpoint-#{$size}");
+  @include respond-to('min-width', $size) {
+    @include display-type-properties('data-dt-#{$size}');
   }
 }
-
-
-
