@@ -1,12 +1,12 @@
 ---
-title: DisplayType Yo
+title: DisplayType
 lang: en-US
 ---
 
 
 # DisplayType
 
-A responsive, flexbox based utility library for rapidly prototyping user interfaces. Create powerful layouts without minimal CSS.
+A responsive, flexbox based utility library for rapidly prototyping user interfaces. Create powerful layouts without writing a single line CSS.
 
 # Introduction
 

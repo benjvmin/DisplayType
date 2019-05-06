@@ -1,16 +1,30 @@
 <template lang="pug">
 
   div
+  
+    nav.d-f.jc-sb
+      ul.d-fc.w-5(data-dt-md="d-f")
+        li.d-f.jc-vc.fg-2
+          a(href="#") Link-1
+        li.d-f.jc-vc.fg-1
+          a(href="#") Link-1
+        li.d-f.jc-vc.fg-1
+          a(href="#") Link-2
+        li.d-f.jc-vc.fg-1
+          a(href="#") Link-3
 
-    section.grid(class="dt-df")
-      .grid__cell.dt-w1.dt-ml1 Hello
-      .grid__cell.dt-w1 Hello 
-      .grid__cell.dt-w1 Hello  
-      .grid__cell.dt-w4.dt-ml3 Hello
+      ul.d-f.w-5
+        li.fg-1
+          a(href="#") Link-1
+        li.fg-1
+          a(href="#") Link-1
+        li.fg-1
+          a(href="#") Link-1
 
-    section.grid(class="dt-df")
-      .grid__cell.dt-w3 Hello
-      .grid__cell.dt-w3 Hello
+    section.grid.d-f(data-dt-sm="d-f jc-c")
+      .grid__cell.w-3 Hello
+      .grid__cell.w-3.ml-1 Hello  
+
 
     main
       Content
@@ -70,7 +84,7 @@ nav {
   &__cell {
     background: #ededed;
     color: #282828;
-    // padding: 5px;
+    padding: 4px;
     border: 1px solid #282828;
   }
 }
