@@ -2,14 +2,16 @@
 
   div
 
-    section.grid(class="dt-df dt-jcsb" data-dt-lg="dt-jcc")
-      .grid__cell.dt-df.dt-w4 Hello 
-      .grid__cell.dt-w4 Hello
+    section.grid(class="dt-df")
+      .grid__cell.dt-w1.dt-ml1 Hello
+      .grid__cell.dt-w1 Hello 
+      .grid__cell.dt-w1 Hello  
+      .grid__cell.dt-w4.dt-ml3 Hello
 
-    section.grid(class="dt-df dt-jcsb")
-      .grid__cell.dt-w4 Hello
-      .grid__cell.dt-w4 Hello
-      .grid__cell.dt-w4 Hello
+    section.grid(class="dt-df")
+      .grid__cell.dt-w3 Hello
+      .grid__cell.dt-w3 Hello
+
     main
       Content
 
