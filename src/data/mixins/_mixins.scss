@@ -10,9 +10,10 @@
 //   }
 // }
 
+
 @mixin display-type-properties($attribute, $size: null) {
   @each $abstraction, $rule in $bigmap {
-    [#{$attribute}~='dt-#{$abstraction}#{$size}'] {
+    [#{$attribute}~='dt-#{$abstraction}'] {
       @each $property, $value in $rule {
         #{$property}: #{$value};
       }

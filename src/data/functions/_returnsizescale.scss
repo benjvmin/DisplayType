@@ -21,5 +21,11 @@
     }
   }
 
+  @if ($scale == margin-left) {
+    @for $i from 1 through $columns {
+      $collection: map-merge($collection, ("ml#{$i}": (margin-left: calc((#{$target-width} / #{$columns} * #{$i}) - #{$empty-space}))));
+    }
+  }
+
   @return $collection;
 }

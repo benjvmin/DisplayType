@@ -2,15 +2,14 @@
 
   div
 
-    section.grid(class="dt-dfc dt-df-md dt-jcc-md dt-jcsa-lg")
-      .grid__cell.dt-fba.dt-w4-md Hello
-      .grid__cell.ft-fba.dt-w4-md Hello
-    
-    section.grid
-      .grid__cell Hello
-      .grid__cell Hello
-      .grid__cell Hello
+    section.grid(class="dt-df dt-jcsb" data-dt-lg="dt-jcc")
+      .grid__cell.dt-df.dt-w4 Hello 
+      .grid__cell.dt-w4 Hello
 
+    section.grid(class="dt-df dt-jcsb")
+      .grid__cell.dt-w4 Hello
+      .grid__cell.dt-w4 Hello
+      .grid__cell.dt-w4 Hello
     main
       Content
 
@@ -55,14 +54,23 @@ body {
 }
 
 
+nav {
+
+
+  & ul {
+    & li { background: pink; }
+  }
+  
+}
+
 .grid {
 
   &__cell {
-    background: #282828;
-    color: white;
-  } 
-
-
+    background: #ededed;
+    color: #282828;
+    // padding: 5px;
+    border: 1px solid #282828;
+  }
 }
 
 

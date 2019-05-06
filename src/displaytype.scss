@@ -15,8 +15,9 @@ DISPLAY-TYPE 1.0.0
 //     @include display-type-properties('data-dt-#{$size}');
 //   }
 // }
+
 @each $size, $breakpoint in $breakpoints {
   @include respond-to('min-width', $size) {
-    @include display-type-properties("class", #{$size});
+    @include display-type-properties("data-dt#{$size}", #{$size});
   }
 }
